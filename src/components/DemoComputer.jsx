@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
-import { useGLTF, useAnimations, useVideoTexture } from "@react-three/drei";
+import { useGLTF, useVideoTexture } from "@react-three/drei";
 import { useGSAP } from "@gsap/react";
-import gsap from "gsap";
+import { gsap } from "gsap";
 const DemoComputer = (props) => {
   const group = useRef();
   const { nodes, materials } = useGLTF("/models/computer.glb");

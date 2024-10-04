@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 const Contact = () => {
   const formRef = useRef();
@@ -44,11 +44,11 @@ const Contact = () => {
           className="absolute inset-0 min-h-screen"
         />
         <div className="contact-container">
-          <h3 className="head-text">Let's Talk</h3>
+          <h3 className="head-text">Let&apos;s Talk</h3>
           <p className="text-lg text-white-600 mt-3">
-            Whether you're looking to build a new website , improve your
-            existing platform, or bring a unique project to life, I'm here to
-            help.
+            Whether you&apos;re looking to build a new website , improve your
+            existing platform, or bring a unique project to life, I&apos;m here
+            to help.
           </p>
           <form
             ref={formRef}

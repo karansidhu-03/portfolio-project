@@ -21,7 +21,7 @@ const About = () => {
               className="w-full sm:h-[276px] h-fit object-contain"
             />
             <div>
-              <p className="grid-headtext">Hi, I'm Karanvir</p>
+              <p className="grid-headtext">Hi, I&apos;m Karanvir</p>
               <p className="grid-subtext">
                 With 1 year of experience , I have honed my skills in frontend
                 and backend development,with a focus on animated 3D websites.
@@ -73,7 +73,7 @@ const About = () => {
                 I work remotely across most timezones
               </p>
               <p className="grid-subtext">
-                I'm based in Croatia, with remote work available.
+                I&apos;m based in Canada, with remote work available.
               </p>
               <Button name="Contact me" isBeam containerClass="w-full mt-10" />
             </div>
@@ -91,7 +91,7 @@ const About = () => {
               <p className="grid-headtext">My Passion for Coding</p>
               <p className="grid-subtext">
                 I love solving problems and building things through code.Coding
-                isn't just my profession-it is my passion.
+                isn&apos;t just my profession-it is my passion.
               </p>
             </div>
           </div>
